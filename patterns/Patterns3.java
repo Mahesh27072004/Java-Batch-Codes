@@ -34,7 +34,7 @@ class Patterns3
 } 
 //op
 /* 
-		  *
+          *
         * *
       * * *
     * * * *
