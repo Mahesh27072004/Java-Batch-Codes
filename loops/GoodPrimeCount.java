@@ -6,11 +6,10 @@ class GoodPrimeCount
 		Scanner sc = new Scanner(System.in);
 		System.out.print("enter the num:");
 		int num = sc.nextInt();
+		boolean flag = true;
 		int cnt = 0;
 		for(int i=2; i<=num ; i++)
 		{
-			
-			boolean flag = true;
 			for(int j=2;j<=i/2;j++)
 			{
 				if(i%j == 0)

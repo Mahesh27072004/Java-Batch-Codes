@@ -8,8 +8,8 @@ class HighetRepeatingChar
 		System.out.println("Enter te string ");
 		String str = sc.next().toUpperCase();
 		//System.out.println(str);
-		int max =0 ;
-		char c = 'n';
+		int max = 0 ;
+		char c ='n';
 		for(char ch='A' ; ch<='Z' ; ch++)
 		{
 			int cnt = 0 ;
