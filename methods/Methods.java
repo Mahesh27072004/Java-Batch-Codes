@@ -4,38 +4,44 @@ class Methods
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("1.sum of two num");
-		System.out.println("2.factorial of num");
-		System.out.println("3.palindrome");
-		System.out.println("4.prime num");
-		System.out.print("enter your choice : ");
-		int ch = sc.nextInt();
-		System.out.println();
-		switch(ch)
+		for(int i=1; ; i++)
 		{
-			case 1:
-			{
-				sum();
-				System.out.println();
-			}break;
-			case 2:
-			{
-				fact();
-				System.out.println();
-			}break;
-			case 3:
-			{
-				palindrome();
-				System.out.println();
-			}break;
-			case 4:
-			{
-				prime();
-				System.out.println();
-			}break;
-			default:
-				System.out.println("invalid choice");
-				break;
+			System.out.println("1.sum of two num");
+			System.out.println("2.factorial of num");
+			System.out.println("3.palindrome");
+			System.out.println("4.prime num");
+			System.out.print("enter your choice : ");
+			int ch = sc.nextInt();
+			System.out.println();
+			
+			//choose which method you want to perform
+				switch(ch)
+				{
+					case 1:
+					{
+						sum();
+						System.out.println();
+					}break;
+					case 2:
+					{
+						fact();
+						System.out.println();
+					}break;
+					case 3:
+					{
+						palindrome();
+						System.out.println();
+					}break;
+					case 4:
+					{
+						prime();
+						System.out.println();
+					}break;
+					default:{
+						System.out.println("invalid choice");
+						System.exit(0);
+					}
+				}
 		}
 		
 		
